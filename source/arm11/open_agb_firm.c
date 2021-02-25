@@ -197,11 +197,6 @@ static Result searchGameDb(u64 x, GameDbEntry *const db, s32 *const entryPos)
 
 static u16 checkSaveOverride(u32 gameCode)
 {
-	if((gameCode & 0xFFu) == 'F') // Classic NES Series.
-	{
-		return SAVE_TYPE_EEPROM_8k;
-	}
-
 	static const struct
 	{
 		alignas(4) char gameCode[4];
