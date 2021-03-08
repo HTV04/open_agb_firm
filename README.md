@@ -9,7 +9,7 @@ open_agb_firm is also a complete and better alternative to GBA VC injects (AGB_F
 * And more to come!
 
 ## Disclaimer
-open_agb_firm is currently in alpha. While open_agb_firm is relatively stable and safe to use, there are some quirks that have not been fixed. See [Known Issues](#known-issues) for more information.
+open_agb_firm is currently in alpha. While open_agb_firm is relatively stable and safe to use, some quirks that have not been fixed. See [Known Issues](#known-issues) for more information.
 
 Additionally, we are not responsible for any damage that may occur to your system as a direct or indirect result of you using open_agb_firm.
 
@@ -93,7 +93,7 @@ This section is reserved for a listing of known issues. At present only this rem
 If you happen to stumble over another bug, please [open an issue](https://github.com/profi200/open_agb_firm/issues) or contact profi200 via other platforms.
 
 ## Hardware Limitations
-open_agb_firm runs GBA games natively, as in using the 3DS's built-in GBA hardware. Unfortunately, this comes with limiations compared to GBA emulators. This is a list of limitations we can't solve in software or are very hard to work around.
+open_agb_firm using the 3DS's built-in GBA hardware. Unfortunately, this comes with limitations compared to GBA emulators. This is a list of limitations we can't solve in software or are very hard to work around.
 * 64+ MiB (512+ Mbit) games and homebrew.
 * Games with extra hardware built into the cartridge (except RTC, or real-time clock). Patches are required.
 * Proper save autodetection (can't find save type during gameplay).
