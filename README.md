@@ -172,6 +172,8 @@ You may use this under the terms of the GNU General Public License GPL v3 or the
 * **ChaN** (fatfs)
 * **benhoyt** (inih)
 * **fastboot3DS project**
+* **MAME**
+* **No-Intro**
 * **Wolfvak, Sono and all the other people in #GodMode9 on IRC/Discord**
 * **endrift, Extrems and all the other people in #mgba on freenode**
 * ...everyone who contributed to **3dbrew.org**
