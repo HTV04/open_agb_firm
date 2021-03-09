@@ -130,11 +130,11 @@ A: Of course! While open_agb_firm does run with full hardware access, a lot of w
 **Q: What games work with open_agb_firm?**\
 A: In theory, all of them, except those that fall within the [hardware limitations](#hardware-limitations).
 
-**Q: Why is the screen so dark?**\
-A: The default backlight value is `64`. You can increase the brightness by increasing this value. Brightness control during gameplay is planned for a future update.
+**Q: How can I increase the brightness?**\
+A: Increase the value of the `backlight` setting in `config.ini`. See [Configuration](#configuration) for more information.
 
 **Q: Why do the colors look darker?**\
-A: You're probably used to the way GBA games look on emulators. No worries, just set the `adjustGamma` setting to `false` to get the color scheme you're expecting. Do note that a lot of games were designed with a darker gamma in mind, so some games may look weird with the brighter colors.
+A: The default gamma settings simulate the OG GBA's LCD. If you want the raw colors (basically what you see on emulators), set the `adjustGamma` setting to `false`. Do note that a lot of games were designed with a darker gamma in mind, so some games may look weird with the brighter colors.
 
 **Q: Why do some of my ROM hacks/homebrew games have saving issues?**\
 A: open_agb_firm resorts to save autodetection when it can't find an entry for the game it's running in `gba_db.bin` (which only contains data for official games), and it's a bit wonky for games that use EEPROM or misleading SDK save strings.
